@@ -12,11 +12,9 @@ width: 800px;
 
 }
 .masthead{
-    background-image:url('images/Computer\ image.jpg') ;
 height: 250px;
 border-radius: 20px;
-background-position: bottom;
-background-size: cover;
+background: no-repeat bottom / cover ('images/Computer\ image.jpg');
 }
 
 .details{
@@ -27,7 +25,7 @@ background-size: cover;
  .details section{
 flex-grow: 1;
 flex-basis: 0;
-background: #eee;
+background: #E9EAEC;
 border-radius: 20px;
 margin-top: 25px;
 
@@ -44,10 +42,10 @@ margin: 20px;
     padding: 0;
 }
 
- div.code-html{
-    padding: 25px;
-    background: #424242;
-    color: #fff;
+div.code-html{
+padding: 25px;
+background: #424242;
+color: #fff;
 border-bottom-left-radius: 20px;
 border-bottom-right-radius: 20px;
 
