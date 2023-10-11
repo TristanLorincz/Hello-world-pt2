@@ -12,7 +12,12 @@ width: 800px;
 }
 .masthead{
     background-image:url('images/Computer\ image.jpg') ;
+height: 200px;
+border-radius: 20px;
+background-position: bottom;
+background-size: cover;
 }
+
 .details{
     display: flex;
     gap: 25px;
